@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <main className="max-w-xl mx-auto mt-10">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl font-bold">Dashboard</h1>
+        <h1 className="text-2xl font-bold">Main Dashboard</h1>
         <button onClick={handleLogout} className="bg-red-600 px-4 py-1 rounded text-white hover:bg-red-700">
           Logout
         </button>
