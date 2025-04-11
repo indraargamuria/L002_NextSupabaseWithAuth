@@ -19,7 +19,8 @@ export default async function Home() {
 
   return (
     <main className="max-w-xl mx-auto mt-10">
-      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+      <button className='bg-blue-500'></button>
+      <h1 className="text-2xl font-bold mb-4 text-red-500">Dashboard</h1>
 
       <form action="/add-todo" method="POST" className="mb-4 flex">
         <input name="title" placeholder="New todo" className="flex-1 p-2 rounded bg-zinc-800 text-white" />
